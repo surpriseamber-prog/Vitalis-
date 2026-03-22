@@ -1,0 +1,38 @@
+{
+  "name": "Vitalis Family Health",
+  "short_name": "Vitalis",
+  "description": "Family health tracking platform — vitals, bloodwork, workouts, nutrition and AI insights",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0f1e",
+  "theme_color": "#00d4ff",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["health", "medical", "fitness"],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Dashboard",
+      "url": "/?tab=dashboard",
+      "description": "View health dashboard"
+    },
+    {
+      "name": "AI Insights",
+      "url": "/?tab=insights",
+      "description": "Get AI health recommendations"
+    }
+  ]
+}
